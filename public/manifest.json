@@ -8,14 +8,8 @@
   "description": "High-End Editorial Narrative for the Nagaland State Commission for Women (NSCW)",
   "icons": [
     {
-      "src": "/Home.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/Home.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/images/nscw-logo.svg",
+      "type": "image/svg+xml"
     }
   ]
 }
