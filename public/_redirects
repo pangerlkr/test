@@ -1,4 +1,4 @@
-/index /Home.html 200
+/ /Home.html 200
 /about /About.html 200
 /legal-framework /Legal_Framework.html 200
 /updates /The_Chronicle.html 200
@@ -8,4 +8,4 @@
 /reports /Reports.html 200
 /privacy /Privacy.html 200
 
-/* /index.html 404
+/* /404.html 404
