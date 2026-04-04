@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node scripts/dev_server.js",
     "dev": "node scripts/dev_server.js",
-    "build": "echo \"Build complete - static site ready for deployment\"",
+    "build": "tailwindcss -i src/input.css -o public/styles/tailwind.css --minify",
     "optimize": "node scripts/optimize.js",
     "migrate": "node scripts/migrate_to_clean_urls.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,11 @@
   ],
   "author": "Nagaland State Commission for Women",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.11",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
 }
