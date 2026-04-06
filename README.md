@@ -423,3 +423,4 @@ sequenceDiagram
 ## 📄 License
 
 © 2026 Nagaland State Commission for Women. Released under the [MIT License](docs/LICENSE).
+[![GitHub](https://img.shields.io/badge/GitHub-pangerlkr-black?logo=github)](https://github.com/pangerlkr)
