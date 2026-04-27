@@ -79,8 +79,14 @@ const server = http.createServer((req, res) => {
   // Serve physical files (CSS, JS, images, etc.)
   // Use realpathSync to resolve symlinks and guard against path traversal.
   const root = path.resolve(process.cwd());
+  const candidates = [
+    path.resolve(root, '.' + cleanPath),
+    path.resolve(root, 'public', '.' + cleanPath),
+  ];
   try {
-    const realFilePath = fs.realpathSync(path.resolve(root, '.' + cleanPath));
+    const candidate = candidates.find((p) => { try { return fs.statSync(p).isFile(); } catch { return false; } });
+    if (!candidate) throw new Error('not found');
+    const realFilePath = fs.realpathSync(candidate);
     const relative = path.relative(root, realFilePath);
     if (relative && !relative.startsWith('..') && !path.isAbsolute(relative) && fs.statSync(realFilePath).isFile()) {
       const ext = path.extname(realFilePath).toLowerCase();
