@@ -9,7 +9,8 @@
     { "source": "/Connect.html",         "destination": "/connect",        "permanent": true },
     { "source": "/Support.html",         "destination": "/support",        "permanent": true },
     { "source": "/Privacy.html",         "destination": "/privacy",        "permanent": true },
-    { "source": "/Reports.html",         "destination": "/reports",        "permanent": true }
+    { "source": "/Reports.html",         "destination": "/reports",        "permanent": true },
+    { "source": "/Mandate.html",         "destination": "/mandate",        "permanent": true }
   ],
   "rewrites": [
     { "source": "/",               "destination": "/public/Home.html" },
@@ -19,7 +20,8 @@
     { "source": "/connect",        "destination": "/public/Connect.html" },
     { "source": "/support",        "destination": "/public/Support.html" },
     { "source": "/privacy",        "destination": "/public/Privacy.html" },
-    { "source": "/reports",        "destination": "/public/Reports.html" }
+    { "source": "/reports",        "destination": "/public/Reports.html" },
+    { "source": "/mandate",        "destination": "/public/Mandate.html" }
   ],
   "headers": [
     {

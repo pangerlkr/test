@@ -17,6 +17,7 @@ const routeMap = {
   '/privacy': 'Privacy.html',
   '/reports': 'Reports.html',
   '/grievance': 'Grievance.html',
+  '/mandate': 'Mandate.html',
 };
 
 const fileToSlug = Object.fromEntries(
