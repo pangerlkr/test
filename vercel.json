@@ -10,7 +10,8 @@
     { "source": "/Support.html",         "destination": "/support",        "permanent": true },
     { "source": "/Privacy.html",         "destination": "/privacy",        "permanent": true },
     { "source": "/Reports.html",         "destination": "/reports",        "permanent": true },
-    { "source": "/Mandate.html",         "destination": "/mandate",        "permanent": true }
+    { "source": "/Mandate.html",         "destination": "/mandate",        "permanent": true },
+    { "source": "/Milestones.html",      "destination": "/milestones",     "permanent": true }
   ],
   "rewrites": [
     { "source": "/",               "destination": "/public/Home.html" },
@@ -21,7 +22,8 @@
     { "source": "/support",        "destination": "/public/Support.html" },
     { "source": "/privacy",        "destination": "/public/Privacy.html" },
     { "source": "/reports",        "destination": "/public/Reports.html" },
-    { "source": "/mandate",        "destination": "/public/Mandate.html" }
+    { "source": "/mandate",        "destination": "/public/Mandate.html" },
+    { "source": "/milestones",     "destination": "/public/Milestones.html" }
   ],
   "headers": [
     {
