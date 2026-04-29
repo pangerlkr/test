@@ -2,9 +2,6 @@
   "mcpServers": {
     "notion": {
       "enabled": true
-    },
-    "21st_dev": {
-      "enabled": false
     }
   }
 }
