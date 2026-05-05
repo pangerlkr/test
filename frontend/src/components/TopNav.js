@@ -22,7 +22,7 @@ export default function TopNav() {
       data-testid="public-topnav"
     >
       <Link to="/" className="flex items-center gap-4 group" data-testid="nav-logo-link">
-        <img src="/images/ncw.webp" alt="NSCW Logo" className="h-10 md:h-12 w-auto drop-shadow-lg group-hover:scale-105 transition-transform" />
+        <img src="/images/NSCW.png" alt="NSCW Logo" className="h-10 md:h-12 w-auto drop-shadow-lg group-hover:scale-105 transition-transform" />
         <div className="flex flex-col">
           <div className="text-lg font-headline font-black uppercase tracking-widest text-white leading-none">NSCW</div>
           <div className="text-[10px] font-label font-bold text-purple-200/60 tracking-[0.2em] uppercase mt-1">Nagaland</div>

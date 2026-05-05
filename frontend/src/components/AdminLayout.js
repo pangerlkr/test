@@ -27,7 +27,7 @@ export default function AdminLayout() {
       <aside className="w-72 bg-purple-950 text-white flex flex-col fixed h-screen overflow-y-auto" data-testid="admin-sidebar">
         <div className="px-6 py-8 border-b border-white/5">
           <div className="flex items-center gap-3">
-            <img src="/images/ncw.webp" alt="NSCW" className="h-12 w-auto" />
+            <img src="/images/NSCW.png" alt="NSCW" className="h-12 w-auto" />
             <div>
               <div className="font-headline font-black text-white text-lg tracking-widest uppercase leading-none">NSCW</div>
               <div className="text-[10px] font-label tracking-[0.2em] uppercase text-purple-200/60 mt-1">CMS Dashboard</div>

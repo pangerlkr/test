@@ -6,12 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto w-full space-y-12">
         <div className="flex flex-nowrap justify-center items-center gap-12 md:gap-20 pb-12 border-b border-white/5 overflow-x-auto">
           <img src="/images/GoN.webp" className="h-20 w-auto logo-float" style={{ animationDelay: "0s" }} alt="Government of Nagaland" />
-          <img src="/images/ncw.webp" className="h-20 w-auto logo-float" style={{ animationDelay: "0.4s" }} alt="National Commission for Women" />
+          <img src="/images/NSCW.png" className="h-20 w-auto logo-float" style={{ animationDelay: "0.4s" }} alt="NSCW Logo" />
           <img src="/images/dsw.webp" className="h-20 w-auto logo-float" style={{ animationDelay: "0.8s" }} alt="Department of Social Welfare Nagaland" />
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left flex flex-col md:flex-row items-center gap-6">
-            <img src="/images/ncw.webp" className="h-16 w-auto brightness-125" alt="NSCW Logo" />
+            <img src="/images/NSCW.png" className="h-16 w-auto brightness-125" alt="NSCW Logo" />
             <div>
               <div className="font-headline font-black text-white text-2xl mb-1 tracking-widest uppercase">NSCW Nagaland</div>
               <p className="font-body text-xs tracking-wide text-purple-200/40">© 2026 Nagaland State Commission for Women. An Empowering Narrative.</p>

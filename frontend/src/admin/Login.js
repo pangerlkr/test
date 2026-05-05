@@ -42,7 +42,7 @@ export default function Login() {
         <div className="absolute -top-20 -right-20 w-96 h-96 rounded-full bg-secondary/20 blur-3xl" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-tertiary/10 blur-3xl" />
         <div className="flex items-center gap-4 relative z-10">
-          <img src="/images/ncw.webp" alt="NSCW" className="h-14 w-auto" />
+          <img src="/images/NSCW.png" alt="NSCW" className="h-14 w-auto" />
           <div>
             <div className="font-headline font-black text-2xl tracking-widest uppercase">NSCW</div>
             <div className="font-label text-xs tracking-[0.25em] uppercase text-white/60 mt-1">Nagaland</div>
@@ -81,6 +81,7 @@ export default function Login() {
               <input type="password" required value={password} onChange={(e) => setPassword(e.target.value)} className="field-input" data-testid="login-password" />
             </div>
             {error && <div className="text-sm font-body text-error bg-error-container/50 border border-error/20 rounded-lg px-4 py-3" data-testid="login-error">{error}</div>}
+            }
             <button type="submit" disabled={submitting} className="btn-primary w-full py-4 text-base" data-testid="login-submit">
               {submitting ? "Signing in…" : "Sign in to Dashboard"}
             </button>
